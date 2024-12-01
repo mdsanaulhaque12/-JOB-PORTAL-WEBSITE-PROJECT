@@ -1,0 +1,343 @@
+*{
+    margin :0px;
+    padding: 0px;
+    font-family: 'Aboreto';
+}
+li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#nav{
+    
+    position: fixed;
+    /* top: 0; */
+    width: 100%;
+   
+    /* z-index: 1000; Ensures it stays above other content */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for separation */
+
+    height: 90px;
+   
+    background-color: rgb(248, 125, 125);
+}
+
+/* Style for the toggle button
+.nav-toggle {
+    display: none;  
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+} */
+
+.left-ul li{
+    margin-top: 20px;
+    list-style: none;
+    float: left;
+    
+}
+.left-ul li a{
+   
+    list-style: none;
+    text-decoration:none;
+    font-size: 30px;
+    margin-left: 40px;
+    color: rgb(84, 116, 116);
+    
+}
+
+.right-ul li{
+    margin-top: 20px;
+    list-style: none;
+    float:right;
+}
+.right-ul li a{
+    list-style: none;
+    font-size: 20px;
+    float:right;
+    color: black;
+    padding: 0 15px;
+    display: block;
+}
+
+.right-ul li a:hover{
+    /* background-color: aqua; */
+    color: black;
+    font-size: 24px;
+}
+
+
+/* header part */
+h1{
+    margin-top: 50px;
+    margin-left: 25px;
+    color: rgb(34, 35, 38);
+    
+}
+
+#banner{
+    
+    width:100%;
+    height: 600px;
+    /* background-image: url("job.jpg"); */
+    background-image: url("https://i.pinimg.com/1200x/ac/7c/dc/ac7cdc3316eaa7bd46a8cc2dfbef1f97.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* This will ensure the image covers the entire div */
+    border-image-repeat: none;
+}
+
+.banner-text{
+    position: absolute;
+    text-align: left;
+    top: 11%;
+    
+}
+
+.banner-text p{
+    margin-top: 5px;
+    margin-left:30px ;
+    color: rgb(58, 3, 49);
+    font-weight: 600;
+}
+.banner-text h1{
+    font-size: 100px;
+}
+
+.btn{
+    border-radius: 10px;
+    border: 2px solid rgb(220, 69, 104);
+    background-color: rgb(162, 147, 147);
+    color: rgb(241, 236, 240);
+    
+    margin-left:30px ;
+    margin-top: 5px;
+
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#web-desc{
+    margin-top: 30px;
+}
+
+
+.container{
+    margin-left:10px;
+    padding-top: 5px;
+    padding-left:5px ;
+    
+}
+#web-desc h1{
+     text-align: center;
+}
+
+
+  /* Center alignment for the button */
+.container-btn {
+    margin-top: 70px;
+    margin-bottom:50px;
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+    width: 100%;
+  
+}
+
+.btn2 {
+    border-radius: 10px;
+    border: 2px solid grey;
+    background-color: grey;
+    color: rgb(18, 19, 19);
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.row{
+    width: 100%;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+
+.intro-image{
+    margin-left: 40px;
+    width: 60%;
+    height: 500px;
+}
+
+
+#website-intro h1{
+    margin-bottom:15 px;
+}
+
+#website-intro h2{
+    margin-top: 10px;
+    text-decoration: underline;
+}
+#website-intro ul li {
+    list-style: none;
+    text-decoration: none;
+    padding-top:5px ;
+}
+#website-intro ul li:hover{
+    color: rgb(154, 2, 149);
+    cursor: pointer;
+}
+
+.row{
+    clear: both;
+    content: "";
+    display: table;
+}
+/* services  css */
+
+#services{
+   
+    float: left;
+    padding: 50px;
+
+}
+.col-3{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.service-icon{
+    text-align: center;
+
+}
+.service-icon i{
+    width:80px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 4px solid pink;
+    background-color: rgb(199, 164, 170);
+    border-radius: 50%;
+    line-height: 50px;
+
+}
+.service-icon i:hover{
+    box-shadow: 10px 20px 10px;
+}
+
+.service-heading{
+    margin-top:30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.service-sub-heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.service-sub-heading h3{
+    font-size: 22px;
+}
+
+.service-subpara{
+    margin-top: 10px;
+}
+.service-subpara p{
+    font-size: 20px;
+}
+
+/* contact*/
+
+.contact-header{
+    margin-left: 70px;
+}
+
+.form-group{
+    /* border: 2px solid black; */
+   
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+.form-group input{
+    background-color: rgb(228, 208, 208);
+    font-size: 15px;
+    border-radius: 6px;
+    width: 450px;
+    height: 30px;
+    border: 2px solid pink;
+}
+
+.form-group input:hover{
+    background-color: pink;
+    color: rgb(16, 14, 14);
+}
+
+/* .container-contact{
+    border : 2px solid blue;
+    background-color: rgb(48, 99, 119);
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+} */
+.container-contact1{
+    border : 2px solid blue;
+    background-color: rgb(48, 99, 119);
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+}
+
+
+@media screen and (max-width:830px) {
+    #nav{
+        padding: 0 0;
+    }
+    #nav ul {
+        text-align: center;
+        float: none;
+        margin-top: 10px;
+    }
+    .left-ul li{
+        list-style: none;
+        text-align: center;
+    }
+    .right-ul li{
+        float: none;
+    }
+    .col-3{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .col-6{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .service-heading{
+        margin-top: 10px;
+       margin-top: 10px; 
+    }
+
+    .right-ul.active {
+        display: flex; /* Show nav links when active */
+    }
+
+    /* Show the toggle button on small screens */
+    .nav-toggle {
+        display: block;
+    }
+    .form-group input{
+        text-align: center;
+
+    }
+}

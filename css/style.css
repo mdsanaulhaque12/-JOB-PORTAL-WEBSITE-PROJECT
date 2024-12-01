@@ -1,0 +1,62 @@
+.img_design {
+    width: 200px; /* Set width of the box */
+    float: left;  /* Float the entire div to align side by side */
+    margin: 10px; /* Space between boxes */
+    padding: 10px; /* Add some padding inside the box */
+    background-color: rgb(240, 240, 240); /* Light background color */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    border: 2px solid rgb(217, 26, 26); /* Border color */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+}
+
+/* Styling for images */
+.img_design img {
+    width: 200px; /* Image width */
+    height: 150px; /* Image height */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Hover effect for div box */
+.img_design:hover {
+    box-shadow: 10px 10px 20px rgba(120, 77, 160, 0.8); /* Stronger shadow on hover */
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+    text-transform: uppercase;
+}
+
+/* Button styling */
+.img_design input[type="button"] {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(217, 26, 26);
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.img_design img:active{
+    display:none;
+}
+.para_design
+{
+    width: 200px; /* Set width of the box */
+    /* max-width: 200px; */
+    height: 200px;
+    /* overflow: hidden;to deal with overflow text in box */
+    overflow-y:scroll;
+    /* overflow-y:hidden ; */
+    overflow-x: hidden;
+    float: left;  /* Float the entire div to align side by side */
+    margin: 10px; /* Space between boxes */
+    padding: 10px; /* Add some padding inside the box */
+    background-color: rgb(240, 240, 240); /* Light background color */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    border: 2px solid rgb(217, 26, 26); /* Border color */
+}
+
+.para_design:hover{
+    box-shadow: 10px 10px 20px rgba(176, 63, 63, 0.2); /* Soft shadow effect */
+
+}
+

@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgb(220, 241, 244);
+}
+.header {
+    /* border: 2px solid rgb(225, 81, 81); */
+    background-color: rgb(70, 156, 232);
+    color: white;
+    padding: 30px;
+    display: flex; /* This will align the inner divs side by side */
+    border-radius: 5px;
+}
+
+.formlogin form{
+    padding-left: 800px;
+    float: right;
+    
+}
+span{
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-size: 30px;
+    
+}
+
+ img{
+    border-radius: 10px;
+    width: 600px;
+    height:300px;
+    float: left;
+
+}
+
+.register{
+    border :2px solid rgb(23, 15, 15);
+    border-radius: 5px;
+    float: left;
+    margin-left:200px;
+    width: 600px;
+    height: 300px;
+}
